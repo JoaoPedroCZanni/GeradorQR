@@ -17,7 +17,7 @@ def gerar_qrcode(conteudo, main):
         img = qr.make_image(fill='black', back_color='white')
 
         img.save(f"{main}.png")
-        print(f"QR code salvo como {main}.png")
+        print(f"QRcode salvo como {main}.png")
     except Exception as e:
         print(f"Ocorreu um erro ao gerar o QR code {e}")
 
